@@ -1,10 +1,9 @@
-
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { useToast } from "@/hooks/use-toast";
+import { ApplyNowDialog } from "@/components/ApplyNowDialog";
 
 // Define a type for course data
 type CourseType = {
@@ -30,7 +29,6 @@ type CourseType = {
 
 const CourseDetailsPage = () => {
   const { departmentId, courseId } = useParams();
-  const { toast } = useToast();
   
   // This would normally come from an API or context
   // For now, we'll use static data matching what's in CoursesPage
@@ -434,14 +432,6 @@ const CourseDetailsPage = () => {
     );
   }
 
-  // Register for course handler
-  const handleRegister = () => {
-    toast({
-      title: "Registration Submitted",
-      description: `You've successfully registered for ${course.code}: ${course.title}`,
-    });
-  };
-
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mb-8">
@@ -464,7 +454,7 @@ const CourseDetailsPage = () => {
             )}
           </div>
           
-          <Button onClick={handleRegister}>Register for Course</Button>
+          <ApplyNowDialog programName={`${course.code}: ${course.title}`} />
         </div>
         
         <Card className="mb-8">
@@ -476,7 +466,6 @@ const CourseDetailsPage = () => {
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
-        {/* Prerequisites */}
         <Card>
           <CardContent className="p-6">
             <h2 className="text-xl font-bold mb-4">Prerequisites</h2>
@@ -492,7 +481,6 @@ const CourseDetailsPage = () => {
           </CardContent>
         </Card>
 
-        {/* Instructors */}
         <Card>
           <CardContent className="p-6">
             <h2 className="text-xl font-bold mb-4">Instructors</h2>
@@ -509,7 +497,6 @@ const CourseDetailsPage = () => {
         </Card>
       </div>
 
-      {/* Course Objectives */}
       <Card className="mb-8">
         <CardContent className="p-6">
           <h2 className="text-xl font-bold mb-4">Course Objectives</h2>
@@ -525,7 +512,6 @@ const CourseDetailsPage = () => {
         </CardContent>
       </Card>
 
-      {/* Weekly Syllabus */}
       <Card className="mb-8">
         <CardContent className="p-6">
           <h2 className="text-xl font-bold mb-4">Weekly Syllabus</h2>
@@ -544,12 +530,11 @@ const CourseDetailsPage = () => {
         </CardContent>
       </Card>
 
-      {/* CTA */}
       <div className="bg-blue-accent/5 rounded-lg p-8 text-center">
         <h2 className="text-2xl font-bold text-navy mb-4">Ready to Enroll?</h2>
         <p className="text-gray-600 mb-6">Join this course to advance your knowledge and skills in {course.title}.</p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Button onClick={handleRegister}>Register Now</Button>
+          <ApplyNowDialog programName={`${course.code}: ${course.title}`} />
           <Button variant="outline" asChild>
             <Link to="/contact">Contact Advisor</Link>
           </Button>

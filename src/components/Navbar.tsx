@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Menu, X, Search } from "lucide-react";
+import { ApplyNowDialog } from "./ApplyNowDialog";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,9 +67,7 @@ const Navbar = () => {
           <Button variant="ghost" size="icon">
             <Search className="h-5 w-5" />
           </Button>
-          <Button className="bg-blue-accent hover:bg-blue-accent/80">
-            Apply Now
-          </Button>
+          <ApplyNowDialog />
         </div>
 
         {/* Mobile Menu Button */}
@@ -101,9 +100,7 @@ const Navbar = () => {
               {link.name}
             </Link>
           ))}
-          <Button className="bg-blue-accent hover:bg-blue-accent/80 mt-6">
-            Apply Now
-          </Button>
+          <ApplyNowDialog />
         </nav>
       </div>
     </header>

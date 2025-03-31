@@ -1,9 +1,9 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, Users, BookOpen, Trophy } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { ApplyNowDialog } from "@/components/ApplyNowDialog";
 
 const HomePage = () => {
   const announcements = [
@@ -241,9 +241,7 @@ const HomePage = () => {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Take the first step towards a brighter future by applying to WebAcademix today.
           </p>
-          <Button asChild size="lg" className="bg-blue-accent hover:bg-blue-accent/80 px-8 py-6 text-lg">
-            <Link to="/contact">Apply Now</Link>
-          </Button>
+          <ApplyNowDialog />
         </div>
       </section>
     </div>
