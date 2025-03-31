@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -80,18 +79,6 @@ const EventsPage = () => {
       description: "A hands-on workshop where participants will learn about AI fundamentals and build their first machine learning model.",
       capacity: 50,
       registrationOpen: true
-    },
-    {
-      id: 7,
-      title: "Annual Arts Festival",
-      type: "cultural",
-      date: "November 5-7, 2023",
-      time: "Various Times",
-      location: "Arts Center",
-      image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      description: "Celebrate creativity with performances, exhibitions, and interactive installations by students and faculty from the arts department.",
-      capacity: 800,
-      registrationOpen: false
     },
     {
       id: 8,
