@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -235,7 +236,9 @@ const CoursesPage = () => {
                         <p className="text-gray-600 mb-4">{course.description}</p>
                         <div className="flex justify-between items-center">
                           <span className="text-gray-500">{course.credits} Credits</span>
-                          <Button variant="outline" size="sm">View Details</Button>
+                          <Button variant="outline" size="sm" asChild>
+                            <Link to={`/courses/${dept.id}/${course.id}`}>View Details</Link>
+                          </Button>
                         </div>
                       </CardContent>
                     </Card>
