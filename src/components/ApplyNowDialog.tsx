@@ -31,7 +31,7 @@ export function ApplyNowDialog({ programName }: ApplyNowDialogProps) {
           <DialogDescription>
             {programName 
               ? `Complete this form to apply for the ${programName} program.`
-              : "Complete this form to apply to WebAcademix."}
+              : "Complete this form to apply to AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE."}
           </DialogDescription>
         </DialogHeader>
         <ApplicationForm 

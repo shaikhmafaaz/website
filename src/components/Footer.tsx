@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center">
               <span className="font-serif font-bold text-2xl bg-gradient-to-r from-blue-accent to-pink-accent bg-clip-text text-transparent">
-                WebAcademix
+                AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE
               </span>
             </Link>
             <p className="mt-4 text-gray-300">
@@ -68,13 +68,13 @@ const Footer = () => {
               <p className="mb-2">123 University Avenue</p>
               <p className="mb-2">Academix City, AC 12345</p>
               <p className="mb-2">Phone: (123) 456-7890</p>
-              <p>Email: info@webacademix.edu</p>
+              <p>Email: info@akispoonacollege.edu</p>
             </address>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} WebAcademix. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-sm text-gray-400">
               <li><a href="#" className="hover:text-blue-accent transition-colors">Privacy Policy</a></li>

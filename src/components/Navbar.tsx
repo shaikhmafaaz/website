@@ -41,7 +41,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="font-serif font-bold text-2xl bg-gradient-to-r from-blue-accent to-pink-accent bg-clip-text text-transparent">
-            WebAcademix
+            AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE
           </span>
         </Link>
 
