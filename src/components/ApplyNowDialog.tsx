@@ -21,7 +21,7 @@ export function ApplyNowDialog({ programName }: ApplyNowDialogProps) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button className="bg-blue-accent hover:bg-blue-accent/80">
+        <Button className="bg-[#800000] hover:bg-[#5a0000] text-white">
           Apply Now
         </Button>
       </DialogTrigger>

@@ -65,9 +65,9 @@ export default {
 				},
 				// Custom colors
 				navy: "#1A1F2C",
-				"blue-accent": "#0EA5E9",
-				"orange-accent": "#F97316",
-				"pink-accent": "#D946EF"
+				"blue-accent": "#800000", // Changed to maroon
+				"orange-accent": "#333333", // Changed to dark gray
+				"pink-accent": "#980000" // Changed to darker maroon
 			},
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
