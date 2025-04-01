@@ -1,6 +1,6 @@
-
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import HeroBackground from "@/components/HeroBackground";
 
 const AboutPage = () => {
   const leaders = [
@@ -64,15 +64,14 @@ const AboutPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-24">
-        <div className="absolute inset-0 bg-navy/90 z-0"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center text-white">
+      <HeroBackground>
+        <div className="text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">About WebAcademix</h1>
           <p className="text-xl max-w-3xl mx-auto">
             Discover our mission, vision, and the dedicated team behind WebAcademix's commitment to excellence in education.
           </p>
         </div>
-      </section>
+      </HeroBackground>
 
       {/* Mission & Vision */}
       <section className="py-20">

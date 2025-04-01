@@ -1,10 +1,10 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import HeroBackground from "@/components/HeroBackground";
 
 const ContactPage = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -16,15 +16,14 @@ const ContactPage = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative py-24">
-        <div className="absolute inset-0 bg-navy/90 z-0"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center text-white">
+      <HeroBackground>
+        <div className="text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl max-w-3xl mx-auto">
             We're here to answer your questions and help you connect with the WebAcademix community.
           </p>
         </div>
-      </section>
+      </HeroBackground>
 
       {/* Contact Information */}
       <section className="py-16">
