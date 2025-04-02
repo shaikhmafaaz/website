@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState } from "react";
 import { z } from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -16,6 +16,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { useToast } from "@/hooks/use-toast";
+import { Card } from "@/components/ui/card";
+import { CheckCircle } from "lucide-react";
 
 // Define the form schema
 const formSchema = z.object({
@@ -36,6 +38,7 @@ interface ApplicationFormProps {
 
 export function ApplicationForm({ onSubmitSuccess, defaultProgram = "" }: ApplicationFormProps) {
   const { toast } = useToast();
+  const [submittedData, setSubmittedData] = useState<FormValues | null>(null);
   
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
@@ -53,6 +56,9 @@ export function ApplicationForm({ onSubmitSuccess, defaultProgram = "" }: Applic
     // In a real application, this would send data to a server
     console.log("Application form submitted:", data);
     
+    // Set the submitted data to display on screen
+    setSubmittedData(data);
+    
     // Show success message
     toast({
       title: "Application Submitted",
@@ -66,6 +72,50 @@ export function ApplicationForm({ onSubmitSuccess, defaultProgram = "" }: Applic
     if (onSubmitSuccess) {
       onSubmitSuccess();
     }
+  }
+
+  // If form is submitted, show the submission message
+  if (submittedData) {
+    return (
+      <Card className="p-6 space-y-4">
+        <div className="flex items-center gap-2 text-green-600">
+          <CheckCircle className="h-6 w-6" />
+          <h3 className="text-lg font-medium">Application Received</h3>
+        </div>
+        <p className="text-gray-500">We've received the following application details:</p>
+        <div className="grid gap-2">
+          <div className="grid grid-cols-3 gap-2">
+            <p className="text-gray-500 font-medium">Name:</p>
+            <p className="col-span-2">{submittedData.firstName} {submittedData.lastName}</p>
+          </div>
+          <div className="grid grid-cols-3 gap-2">
+            <p className="text-gray-500 font-medium">Email:</p>
+            <p className="col-span-2">{submittedData.email}</p>
+          </div>
+          <div className="grid grid-cols-3 gap-2">
+            <p className="text-gray-500 font-medium">Phone:</p>
+            <p className="col-span-2">{submittedData.phone}</p>
+          </div>
+          <div className="grid grid-cols-3 gap-2">
+            <p className="text-gray-500 font-medium">Program:</p>
+            <p className="col-span-2">{submittedData.program}</p>
+          </div>
+          {submittedData.message && (
+            <div className="grid grid-cols-3 gap-2">
+              <p className="text-gray-500 font-medium">Message:</p>
+              <p className="col-span-2">{submittedData.message}</p>
+            </div>
+          )}
+        </div>
+        <Button 
+          onClick={() => setSubmittedData(null)} 
+          className="mt-4"
+          variant="outline"
+        >
+          Submit another application
+        </Button>
+      </Card>
+    );
   }
 
   return (
