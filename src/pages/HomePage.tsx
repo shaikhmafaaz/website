@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -18,7 +17,7 @@ const HomePage = () => {
       id: 2,
       title: "New Research Grant Awarded",
       date: "May 28, 2023",
-      description: "WebAcademix received a $2.5M grant for advanced research in artificial intelligence and machine learning."
+      description: "AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE received a $2.5M grant for advanced research in artificial intelligence and machine learning."
     },
     {
       id: 3,
@@ -92,7 +91,7 @@ const HomePage = () => {
               Shaping Tomorrow's Leaders Today
             </h1>
             <p className="text-xl text-gray-200 mb-8 animate-fade-in" style={{animationDelay: "0.2s"}}>
-              WebAcademix delivers cutting-edge education and research opportunities to prepare students for the challenges of a rapidly evolving world.
+              AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE delivers cutting-edge education and research opportunities to prepare students for the challenges of a rapidly evolving world.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
               <Button asChild className="bg-blue-accent hover:bg-blue-accent/80 text-white px-8 py-6 text-lg">
@@ -205,7 +204,7 @@ const HomePage = () => {
                 ))}
               </div>
               <Button asChild variant="outline" className="mt-8">
-                <Link to="/events">
+                <Link to="#">
                   View All Events <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -240,7 +239,7 @@ const HomePage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Begin Your Academic Journey?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Take the first step towards a brighter future by applying to WebAcademix today.
+            Take the first step towards a brighter future by applying to AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE today.
           </p>
           <ApplyNowDialog />
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
             <Link to="/" className="flex items-center">
               <span className="font-serif font-bold text-2xl bg-gradient-to-r from-blue-accent to-pink-accent bg-clip-text text-transparent">
-                AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE
+                AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE
               </span>
             </Link>
             <p className="mt-4 text-gray-300">
@@ -45,7 +45,6 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-300 hover:text-blue-accent transition-colors">About Us</Link></li>
               <li><Link to="/courses" className="text-gray-300 hover:text-blue-accent transition-colors">Courses</Link></li>
-              <li><Link to="/events" className="text-gray-300 hover:text-blue-accent transition-colors">Events</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-blue-accent transition-colors">Contact Us</Link></li>
             </ul>
           </div>
@@ -74,7 +73,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERECE. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-sm text-gray-400">
               <li><a href="#" className="hover:text-blue-accent transition-colors">Privacy Policy</a></li>
