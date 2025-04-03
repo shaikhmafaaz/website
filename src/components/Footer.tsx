@@ -64,10 +64,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-300">
-              <p className="mb-2">123 University Avenue</p>
-              <p className="mb-2">Academix City, AC 12345</p>
-              <p className="mb-2">Phone: (123) 456-7890</p>
-              <p>Email: info@akispoonacollege.edu</p>
+              <p className="mb-2">Hidayatulla Rd, Katad Khana</p>
+              <p className="mb-2">Pune, Maharashtra 411002</p>
+              <p className="mb-2">Phone: 7875602149, 9096257146</p>
+              <p>Email: akispoonacollege@gmail.com</p>
             </address>
           </div>
         </div>

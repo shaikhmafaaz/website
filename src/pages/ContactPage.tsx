@@ -104,9 +104,9 @@ const ContactPage = () => {
                       <div>
                         <h3 className="font-bold text-lg mb-2">Our Location</h3>
                         <address className="not-italic text-gray-600">
-                          <p>123 University Avenue</p>
-                          <p>Academix City, AC 12345</p>
-                          <p>United States</p>
+                          <p>Hidayatulla Rd, Katad Khana</p>
+                          <p>Pune, Maharashtra 411002</p>
+                          <p>India</p>
                         </address>
                       </div>
                     </div>
@@ -121,9 +121,9 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-2">Phone</h3>
-                        <p className="text-gray-600">Main: (123) 456-7890</p>
-                        <p className="text-gray-600">Admissions: (123) 456-7891</p>
-                        <p className="text-gray-600">Student Services: (123) 456-7892</p>
+                        <p className="text-gray-600">Main: 7875602149</p>
+                        <p className="text-gray-600">Admissions: 9096257146</p>
+                        <p className="text-gray-600">Student Services: 8986557000</p>
                       </div>
                     </div>
                   </CardContent>
@@ -137,7 +137,7 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-2">Email</h3>
-                        <p className="text-gray-600">General Inquiries: info@akispoonacollege.edu</p>
+                        <p className="text-gray-600">General Inquiries: akispoonacollege@gmail.com</p>
                         <p className="text-gray-600">Admissions: admissions@akispoonacollege.edu</p>
                         <p className="text-gray-600">Student Support: support@akispoonacollege.edu</p>
                       </div>
@@ -172,13 +172,13 @@ const ContactPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-navy mb-4">Find Us</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Our campus is conveniently located in the heart of Academix City, with easy access to public transportation.
+              Our campus is conveniently located in Pune, with easy access to public transportation.
             </p>
           </div>
           
           <div className="aspect-[16/9] w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.30590917523!2d-74.25986652425023!3d40.6976700951469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1687880972268!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0132478124277!2d73.8710717!3d18.5257873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06a75a0a47d%3A0x59fc83e0b3288b7!2sPoona%20College%20of%20Arts%2C%20Science%20and%20Commerce!5e0!3m2!1sen!2sin!4v1712158264242!5m2!1sen!2sin"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
