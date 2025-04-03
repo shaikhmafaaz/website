@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import HeroBackground from "@/components/HeroBackground";
@@ -39,7 +40,7 @@ const AboutPage = () => {
       id: 1,
       year: "2022",
       title: "Ranked Top 50 in National Universities",
-      description: "WebAcademix was recognized among the top 50 universities nationwide for academic excellence and research innovation."
+      description: "AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE was recognized among the top 50 universities nationwide for academic excellence and research innovation."
     },
     {
       id: 2,
@@ -66,9 +67,9 @@ const AboutPage = () => {
       {/* Hero Section */}
       <HeroBackground>
         <div className="text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About WebAcademix</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Discover our mission, vision, and the dedicated team behind WebAcademix's commitment to excellence in education.
+            Discover our mission, vision, and the dedicated team behind AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE's commitment to excellence in education.
           </p>
         </div>
       </HeroBackground>
@@ -80,7 +81,7 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold text-navy mb-6">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                At WebAcademix, our mission is to provide accessible, innovative education that empowers students to become creative problem-solvers and ethical leaders who make positive contributions to society.
+                At AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE, our mission is to provide accessible, innovative education that empowers students to become creative problem-solvers and ethical leaders who make positive contributions to society.
               </p>
               <p className="text-lg text-gray-600">
                 We are committed to fostering a diverse and inclusive learning environment where intellectual curiosity thrives, and students are equipped with the knowledge and skills needed to navigate an increasingly complex world.
@@ -89,7 +90,7 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold text-navy mb-6">Our Vision</h2>
               <p className="text-lg text-gray-600 mb-6">
-                WebAcademix aspires to be a globally recognized institution of academic excellence, known for its innovative approach to education, groundbreaking research, and meaningful community engagement.
+                AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE aspires to be a globally recognized institution of academic excellence, known for its innovative approach to education, groundbreaking research, and meaningful community engagement.
               </p>
               <p className="text-lg text-gray-600">
                 We envision a future where our graduates are at the forefront of addressing global challenges, driving positive change through critical thinking, creativity, and ethical leadership in their respective fields.
@@ -195,7 +196,7 @@ const AboutPage = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-navy mb-4">Our Leadership</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Meet the dedicated professionals guiding WebAcademix's mission for educational excellence and innovation.
+              Meet the dedicated professionals guiding AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE's mission for educational excellence and innovation.
             </p>
           </div>
 
@@ -263,16 +264,16 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-navy mb-6">Message from the President</h2>
               <div className="text-lg text-gray-600 space-y-4">
                 <p>
-                  Welcome to WebAcademix, where we are dedicated to fostering a community of lifelong learners, innovative thinkers, and compassionate leaders.
+                  Welcome to AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE, where we are dedicated to fostering a community of lifelong learners, innovative thinkers, and compassionate leaders.
                 </p>
                 <p>
-                  In today's rapidly evolving global landscape, higher education plays a crucial role in preparing students not just for the careers of today, but for the challenges and opportunities of tomorrow. At WebAcademix, we embrace this responsibility with a commitment to academic rigor, inclusivity, and innovation.
+                  In today's rapidly evolving global landscape, higher education plays a crucial role in preparing students not just for the careers of today, but for the challenges and opportunities of tomorrow. At AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE, we embrace this responsibility with a commitment to academic rigor, inclusivity, and innovation.
                 </p>
                 <p>
                   Our dedicated faculty, cutting-edge facilities, and comprehensive support services create an environment where students can discover their passions, develop their talents, and make meaningful contributions to society. We believe in education that extends beyond the classroom—education that transforms lives and communities.
                 </p>
                 <p>
-                  As you explore all that WebAcademix has to offer, I invite you to envision yourself as part of our dynamic community. Whether you are a prospective student, parent, alumnus, or community partner, there is a place for you in the WebAcademix family.
+                  As you explore all that AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE has to offer, I invite you to envision yourself as part of our dynamic community. Whether you are a prospective student, parent, alumnus, or community partner, there is a place for you in the AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE family.
                 </p>
                 <p className="italic">
                   — Dr. Sarah Johnson, President

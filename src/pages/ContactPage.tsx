@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -20,7 +21,7 @@ const ContactPage = () => {
         <div className="text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            We're here to answer your questions and help you connect with the WebAcademix community.
+            We're here to answer your questions and help you connect with the AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE community.
           </p>
         </div>
       </HeroBackground>
@@ -136,9 +137,9 @@ const ContactPage = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-lg mb-2">Email</h3>
-                        <p className="text-gray-600">General Inquiries: info@webacademix.edu</p>
-                        <p className="text-gray-600">Admissions: admissions@webacademix.edu</p>
-                        <p className="text-gray-600">Student Support: support@webacademix.edu</p>
+                        <p className="text-gray-600">General Inquiries: info@akispoonacollege.edu</p>
+                        <p className="text-gray-600">Admissions: admissions@akispoonacollege.edu</p>
+                        <p className="text-gray-600">Student Support: support@akispoonacollege.edu</p>
                       </div>
                     </div>
                   </CardContent>
@@ -206,7 +207,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For inquiries about application process, requirements, and campus tours.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7891</p>
-                  <p>Email: admissions@webacademix.edu</p>
+                  <p>Email: admissions@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -217,7 +218,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For information about scholarships, grants, loans, and payment plans.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7893</p>
-                  <p>Email: financial.aid@webacademix.edu</p>
+                  <p>Email: financial.aid@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -228,7 +229,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For on-campus housing applications, policies, and residential life.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7894</p>
-                  <p>Email: housing@webacademix.edu</p>
+                  <p>Email: housing@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -239,7 +240,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For course registration, academic records, transcripts, and graduation.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7895</p>
-                  <p>Email: registrar@webacademix.edu</p>
+                  <p>Email: registrar@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -250,7 +251,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For career counseling, job fairs, resume assistance, and internships.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7896</p>
-                  <p>Email: careers@webacademix.edu</p>
+                  <p>Email: careers@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -261,7 +262,7 @@ const ContactPage = () => {
                 <p className="text-gray-600 mb-3">For technical support, account access, and campus technology services.</p>
                 <div className="text-gray-600">
                   <p>Phone: (123) 456-7897</p>
-                  <p>Email: helpdesk@webacademix.edu</p>
+                  <p>Email: helpdesk@akispoonacollege.edu</p>
                 </div>
               </CardContent>
             </Card>
@@ -275,7 +276,7 @@ const ContactPage = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-navy mb-4">Frequently Asked Questions</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Find answers to commonly asked questions about WebAcademix.
+              Find answers to commonly asked questions about AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE.
             </p>
           </div>
           
@@ -293,7 +294,7 @@ const ContactPage = () => {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">What financial aid options are available?</h3>
                 <p className="text-gray-600">
-                  WebAcademix offers various financial aid options including scholarships, grants, loans, and work-study programs. Visit our Financial Aid Office or website for more information on eligibility and application procedures.
+                  AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE offers various financial aid options including scholarships, grants, loans, and work-study programs. Visit our Financial Aid Office or website for more information on eligibility and application procedures.
                 </p>
               </CardContent>
             </Card>
@@ -311,7 +312,7 @@ const ContactPage = () => {
               <CardContent className="p-6">
                 <h3 className="font-bold text-lg mb-2">Are there housing options available for students?</h3>
                 <p className="text-gray-600">
-                  Yes, WebAcademix offers on-campus housing for undergraduate and graduate students. Housing options include dormitories, apartments, and shared houses. Applications for housing should be submitted through the Student Housing Office.
+                  Yes, AKI'S POONA COLLEGE OF ARTS SCIENCE AND COMMERCE offers on-campus housing for undergraduate and graduate students. Housing options include dormitories, apartments, and shared houses. Applications for housing should be submitted through the Student Housing Office.
                 </p>
               </CardContent>
             </Card>
