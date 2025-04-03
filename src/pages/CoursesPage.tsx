@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -6,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
+import { ApplyNowDialog } from "@/components/ApplyNowDialog";
 
 const CoursesPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -153,7 +153,6 @@ const CoursesPage = () => {
     }
   ];
 
-  // Filter courses based on search query
   const filteredDepartments = departments.map(dept => ({
     ...dept,
     courses: dept.courses.filter(course => 
@@ -164,7 +163,6 @@ const CoursesPage = () => {
 
   return (
     <div>
-      {/* Hero Section */}
       <section className="relative py-24">
         <div className="absolute inset-0 bg-navy/90 z-0"></div>
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
@@ -175,7 +173,6 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Search & Filter */}
       <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-lg mx-auto">
@@ -193,7 +190,6 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Courses by Department */}
       <section className="py-12">
         <div className="container mx-auto px-4">
           <Tabs defaultValue="cs" className="w-full">
@@ -272,7 +268,6 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Program Structure */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -326,7 +321,6 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* Faculty Highlight */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -388,7 +382,6 @@ const CoursesPage = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="py-20 bg-navy text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your Academic Journey?</h2>
@@ -396,9 +389,7 @@ const CoursesPage = () => {
             Take the first step towards your future by applying to one of our academic programs today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button className="bg-blue-accent hover:bg-blue-accent/80 px-8 py-6 text-base">
-              Apply Now
-            </Button>
+            <ApplyNowDialog />
             <Button variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-6 text-base">
               Request Information
             </Button>
