@@ -178,7 +178,7 @@ const ContactPage = () => {
           
           <div className="aspect-[16/9] w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://www.google.com/maps?ll=18.506154,73.874782&z=12&t=m&hl=en&gl=US&mapclient=embed&cid=9902628796228839332"
+              src="https://maps.app.goo.gl/6Bid3ecoZskjPMcP6"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
