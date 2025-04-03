@@ -178,7 +178,7 @@ const ContactPage = () => {
           
           <div className="aspect-[16/9] w-full max-w-5xl mx-auto rounded-lg overflow-hidden shadow-lg">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.0132478124277!2d73.8710717!3d18.5257873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06a75a0a47d%3A0x59fc83e0b3288b7!2sPoona%20College%20of%20Arts%2C%20Science%20and%20Commerce!5e0!3m2!1sen!2sin!4v1712158264242!5m2!1sen!2sin"
+              src="https://www.google.com/maps?ll=18.506154,73.874782&z=12&t=m&hl=en&gl=US&mapclient=embed&cid=9902628796228839332"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
